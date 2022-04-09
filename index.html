@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TodoList</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-  <script src="https://unpkg.com/vue@next"></script>
-  <script src="./js/v6.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Task</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="wrapper task-list-empty">
+        <header>
+          <h1 class="heading">My Task</h1>
+          <div class="theme-toggle">
+            <button class="theme-toggle-btn"></button>
+          </div>
+        </header>
+        <section class="task-container">
+          <ul class="task-list"></ul>
+        </section>
+        <footer>
+          <form class="new-task-form">
+            <input
+              type="text"
+              name="new-task-input"
+              class="new-task-input"
+              placeholder="Create New Task"
+              value=""
+            />
+            <button type="submit" class="task-input-btn"></button>
+          </form>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
