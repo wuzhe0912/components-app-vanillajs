@@ -1,8 +1,3 @@
-# Javascript Component
+# Login OTP Validation
 
-> use vanilla js build some component, and provide for use by tutors.
-
-## Features
-
-- [ ] counter
-- [ ] my task
+> This is a simple login page with OTP validation, for display in resume.
